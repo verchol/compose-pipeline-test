@@ -5,4 +5,5 @@ env:
 go:
  - "1.13"
 script:
+  - ls . 
   -  go build -v ./.  
